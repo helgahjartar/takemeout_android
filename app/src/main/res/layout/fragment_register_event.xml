@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_register_event"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/edtEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nafn"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/edtEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="0.27"
+            android:ems="10"
+            android:hint="Tímasetning"
+            android:inputType="date"
+            android:textSize="19dp" />
+
+        <Spinner
+            android:id="@+id/spType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+
+        <Spinner
+            android:id="@+id/spLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+
+        <Spinner
+            android:id="@+id/spPerformers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/edtDescriptionEng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Lýsing á Ensku"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/edtDescriptionIce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Lýsing á Íslensku"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/darkorange"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Skrá Viðburð"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

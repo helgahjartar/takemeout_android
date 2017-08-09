@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_user_registration"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:padding="10dp"
+        android:text="Skráning notanda"
+        android:textColor="@color/orange"
+        android:textSize="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:text="Skráðu notendanafn"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skráðu netfang"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/username_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skráðu lykilorð"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords|textPassword" />
+
+    <TextView
+        android:id="@+id/username_pass_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skráðu lykilorð aftur"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/password_edit_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16" />
+
+    <Button
+        android:id="@+id/button_register_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkblue"
+        android:onClick="registerUser"
+        android:text="Skrá notanda"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Take Me Out</string>
+    <string name="main_title">HVERT VILTU FARA?</string>
+    <string name="button_registration">Skráning</string>
+    <string name="today_button">Viðburðir</string>
+    <string name="profile_button">Mitt svæði</string>
+    <string name="login_title">Skráðu þig inn</string>
+    <string name="username">Notendanafn</string>
+    <string name="password">Lykilorð</string>
+    <string name="login_button">Skrá inn</string>
+    <string name="reg_button">Nýr notandi? Ýttu hér!</string>
+</resources>
